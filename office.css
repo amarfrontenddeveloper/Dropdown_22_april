@@ -1,0 +1,343 @@
+  *
+     {
+     	margin: 0px;
+     }
+     #container
+     {
+     	width: 100%
+     	height:auto;
+     
+     }
+     .img1
+     {
+     	position: relative;
+     }
+     img
+     {
+     	width: 100%;
+     }
+     .navmain
+     {
+     	position: absolute;
+     	top: 0;
+     	left: 0;
+     	width: 100%;
+     	height: 40px;
+     	border: 1px solid white;
+
+     }
+     .job
+     {
+     	width: 10%;
+     	display: inline-block;
+     	float: left;
+     	margin-left: 50px;
+     	margin-top: 10px;
+     	text-transform: uppercase;
+     
+     }
+     .navbar
+     {
+     	width: 50%;
+     	float: left;
+     	margin-left: 50px;
+
+
+     }
+     li
+     {
+     	display: inline-block;
+     	padding: 12px;
+
+     }
+     a
+     {
+     	text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+     }
+     a:hover
+     {
+     	color: green;
+     }
+     a:activ
+     {
+     	color: cyan;
+     }  
+    .mainbutton
+    {
+    	width: 20%;
+    	display: inline-block;
+    	float: left;
+    	margin-left: 20px;
+    	margin-top: -15px;
+    	
+    }
+    .button
+    {
+    	margin: 20px;
+    	background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 50px;
+        height: 25px;
+
+    }
+    .dropbtn
+     {
+      cursor: pointer;
+     }
+    .dropdown {
+     position: relative;
+     display: inline-block;
+    }
+
+   .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   z-index: 1;
+   }
+
+
+.dropdown-content a
+ {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content
+{
+    background-color: lightblue
+    
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover   
+ {
+  
+  border-left: 3px solid black;
+}
+.gallery
+{
+    width: 100%;
+    height: 200px;
+}
+.galleryimg
+{
+    width: 20%;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid gray;
+
+}
+.photo
+{
+    width: 100%;
+    height: 100px;
+}
+.galleryimg:hover
+{
+    border: 5px solid orange;
+}
+/*.photoname
+{
+    float: left;
+}*/
+.galleryimg p
+{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+.galleryimg p:hover
+{
+    color: white;
+    background-color: blue;
+}
+.gallery1
+{
+    width: 100%;
+    height: 320px;
+}
+.galleryimg1
+{
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    border:2px solid gray;
+
+}
+.photo1
+{
+    width: 100%;
+    height: 250px;
+}
+.galleryimg1:hover
+{
+    border-top:8px solid red;
+    border-bottom:8px solid red;
+}
+.photoname1
+{
+    float: left;
+}
+.galleryimg1 p
+{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+.galleryimg1 p:hover
+{
+    color: white;
+    background-color: grey;
+}
+
+.gallerymain
+{
+
+    transition: width 1s;
+    height: 40px;
+    width: 200px;
+    background-color: orange;
+    text-align: center; 
+
+}
+.gallerymain:hover
+{
+    width: 100%;
+}
+.gallerymain1
+{
+
+    transition: width 1s height 2s;
+    height: 40px;
+    width: 200px;
+    background-color: red;
+    text-align: center; 
+
+}
+.gallerymain1:hover
+{
+    width: 400px;
+    height: 100px;
+}
+.gallerymain2
+{
+
+    transition: width 1s;
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+    text-align: center; 
+    transition-delay: 1s;
+
+}
+.gallerymain2:hover
+{
+    width: 100%;
+}
+.gallerymain3
+{
+
+    transition: width 2s height 2s transform 2s;
+    height: 40px;
+    width: 200px;
+    background-color: green;
+    text-align: center;
+
+
+}
+.gallerymain3:hover
+{
+     width: 400px;
+    height: 100px;
+    transform: rotate(5deg);
+}
+.gallerymain4
+{
+
+    transition: width 1s linear;
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    text-align: center; 
+
+}
+.gallerymain4:hover
+{
+    width: 100%;
+}
+.sec1
+{
+    background-color: #E7E9EB;
+
+}
+.sec1:hover
+{
+    border: 5px solid red;
+}
+.sec2
+{
+    background-color: #DAD6C5;
+
+}
+.sec2:hover
+{
+    border: 5px solid blue;
+}
+.gradient
+{
+    width: 95%;
+    height: 200px;
+    background-image: linear-gradient(yellow , green, black,white)
+
+
+
+}
+.gradient h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding:5%;
+    font-family: cursive;
+}
+.sec3
+{
+margin-top: 10px;
+margin-left: 60px;
+}
+.gradient1
+{
+    width: 95%;
+    height: 200px;
+    background-image: linear-gradient(to right,yellow , green, black,white)
+
+
+
+}
+.gradient1 h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding:5%;
+    font-family: cursive;
+    color: white;
+}
